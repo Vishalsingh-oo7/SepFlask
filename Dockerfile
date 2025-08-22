@@ -1,5 +1,5 @@
 FROM python:3.11.9-bookworm
-WORKDIR /flask-docker
+WORKDIR /flask_docker_SHIVANKSIR
 
 RUN python3 -m pip install --upgrade pip
 COPY requirements.txt requirements.txt

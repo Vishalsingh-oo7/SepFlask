@@ -51,3 +51,6 @@ def prediction():
 
     return {"loan_approval_status": pred}
 # to run the app
+
+if __name__ == "__main__":
+    app.run(debug=True)

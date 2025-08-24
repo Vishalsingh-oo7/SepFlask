@@ -53,4 +53,5 @@ def prediction():
 # to run the app
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    # IMPORTANT: bind to 0.0.0.0 and the same port you expose in Docker/ECS
+    app.run(host="0.0.0.0", port=5000, debug=False)
